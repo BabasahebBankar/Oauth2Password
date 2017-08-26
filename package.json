@@ -1,0 +1,27 @@
+{
+  "name": "mybeerlocker",
+  "version": "1.0.0",
+  "description": "beerlocker to demonstrate oauth2orize resource owner password example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grant_type=password"
+  ],
+  "author": "babasaheb_bankar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "crypto": "^1.0.1",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.8",
+    "oauth2orize": "^1.10.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-oauth2-client-password": "^0.1.2"
+  }
+}
